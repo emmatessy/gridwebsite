@@ -196,6 +196,7 @@ footer{
 @media (max-width: 700px){
 
 	.header{
+		padding: 0.3rem;
 		grid-template-areas: 
 		'banner banner'
 		'top-box-a top-box-b';
@@ -216,7 +217,12 @@ footer{
 }
 
 @media (max-width: 500px){
+	body{
+		margin:15px 10px;
+	}
 	.header{
+		padding: 0.6rem;
+		grid-gap:5px;
 		grid-template-areas: 
 		'banner'
 		'top-box-a'
